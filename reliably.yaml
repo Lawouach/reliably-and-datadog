@@ -2,7 +2,7 @@ apiVersion: reliably.com/v1
 kind: Objective
 metadata:
   labels:
-    name: 99% of requests  over last 5 minutes
+    name: 99% of frontend responses over last 5 minutes are 2xx
     service: my-frontend-service
 spec:
   indicatorSelector:

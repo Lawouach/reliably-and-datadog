@@ -10,12 +10,8 @@ from starlette.routing import Route
 
 
 async def index(request: Request) -> JSONResponse:
-    if random.random() > 0.994:
-        return JSONResponse(
-            {'error': 'oh no, you did something bad'}, status_code=400)
-    if random.random() > 0.991:
-        return JSONResponse(
-            {'error': 'oh no, we just bailed'}, status_code=500)
+    if random.random() > 0.995:
+        return JSONResponse({'error': 'boom'}, status_code=500)
     return JSONResponse({'hello': 'world'})
 
 

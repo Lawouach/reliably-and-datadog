@@ -2,7 +2,7 @@
 
 For more information, please review these articles:
 
-* [Bringing reliability closer to you with Reliably and DataDog](https://dev.to/reliably/bringing-reliability-closer-to-you-with-reliably-and-datadog-1b68-temp-slug-4071711)
+* [Bringing reliability closer to you with Reliably and DataDog](https://dev.to/reliably/bringing-reliability-closer-to-you-with-reliably-and-datadog-2jbm)
 
 ## Requirements
 

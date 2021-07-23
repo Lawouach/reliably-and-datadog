@@ -2,7 +2,7 @@
 
 For more information, please review these articles:
 
-* 
+* [Bringing reliability closer to you with Reliably and DataDog](https://dev.to/reliably/bringing-reliability-closer-to-you-with-reliably-and-datadog-1b68-temp-slug-4071711)
 
 ## Requirements
 
@@ -14,4 +14,4 @@ For more information, please review these articles:
 
 
 Make sure to have DataDog API and APP keys as well as the appropriate domain
-for the DataDog app (datadoghq.eu for example).
+for the DataDog app (`datadoghq.eu` for example).

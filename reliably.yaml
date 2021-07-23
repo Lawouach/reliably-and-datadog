@@ -1,0 +1,12 @@
+apiVersion: reliably.com/v1
+kind: Objective
+metadata:
+  labels:
+    name: 99% of requests  over last 5 minutes
+    service: my-frontend-service
+spec:
+  indicatorSelector:
+    datadog_denominator_query: sum:trace.starlette.request.hits{service:my-frontend-service,resource_name:get_/}.as_count()
+    datadog_numerator_query: (sum:trace.starlette.request.hits{service:my-frontend-service,resource_name:get_/}.as_count() - sum:trace.starlette.request.errors{service:my-frontend-service,resource_name:get_/}.as_count())
+  objectivePercent: 99
+  window: 5m
